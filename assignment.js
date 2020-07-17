@@ -6,7 +6,7 @@ function feetToMile(feet) {
 
 var result = feetToMile(60000);
 result = result.toFixed(2);
-console.log("Our required Mile is:", result);
+// console.log("Our required Mile is:", result);
 
 // <!--woodCalculator section--->
 function woodCalculator(chair, table, bed) {
@@ -18,7 +18,7 @@ function woodCalculator(chair, table, bed) {
 }
 
 var totalWoodResult = woodCalculator(14, 5, 14);
-console.log("Total Wood Need", totalWoodResult,"cubic centimeters");
+// console.log("Total Wood Need", totalWoodResult,"cubic centimeters");
 
 // <!--brickCalculator section-->
 function brickCalculator(numberOfFloor) {
@@ -39,7 +39,7 @@ function brickCalculator(numberOfFloor) {
     return numberOfBricks;
 }
 var totalBreakCount = brickCalculator(26);
-console.log("Total Bricks required:", totalBreakCount);
+// console.log("Total Bricks required:", totalBreakCount);
 
 // <!--tinyFreind section-->
 function tinyFriend(names) {
@@ -56,4 +56,4 @@ function tinyFriend(names) {
 
 
 var shortestNameFriend = tinyFriend(['salam', 'irfanamin', 'don', 'sadia', 'ishmamamin', 'maruf']);
-console.log("The name of my tiny freind is:", shortestNameFriend);
+// console.log("The name of my tiny freind is:", shortestNameFriend);
